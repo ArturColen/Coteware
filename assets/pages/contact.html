@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Coteware</title>
+    <!-- === Favicon === -->
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <!-- CSS Files === -->
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- === Bootstrap CDN === -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- === Font Awesome === -->
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+</head>
+<body>
+    <!-- === Dark And Light Mode Button === -->
+    <div onclick="DarkMode()" id="dark-light-mode"> <img src="../images/dark-light-mode.svg" alt="Modo claro e escuro" width="50px"> </div>
+    <!-- === Header === -->
+    <header>
+        <a href="#"> <img src="../images/logo.png" alt="Logo da Coteware" width="70px"> </a>
+        <ul id="nav">
+            <li> <a href="../../index.html">Home</a> </li>
+            <li> <a href="./monitors.html">Monitores</a> </li>
+            <li> <a href="./keyboards.html">Teclados</a> </li>
+            <li> <a href="./contact.html">Contato</a> </li>
+        </ul>
+        <div id="search">
+            <input type="text" placeholder="Pesquisar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <!-- === Form Section === -->
+    <div id="title">
+        <h2>Contato</h2>
+        <p>Caso tenha alguma dúvida sobre nossos produtos, formas de entrega ou deseje dar seu <i>feedback</i> sobre nosso atendimento, basta preencher o formulário a seguir.</p>
+    </div>
+    <div id="contact-container">
+        <div id="form-container">
+            <!-- === Form === -->
+            <form id="contact-form">
+                <input type="text" placeholder="Digite seu nome" maxlength="70" required>
+                <input type="email" placeholder="Digite seu e-mail" maxlength="50" required>
+                <input type="tel" placeholder="Digite seu número de telefone" id="phone" oninput="phone_mask()" required>
+                <textarea cols="30" rows="10" placeholder="Digite sua mensagem" maxlength="500" required></textarea>
+                <input type="submit" value="Enviar" id="send-btn">
+            </form>
+        </div>
+        <!-- === Map === -->
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.075289853218!2d-46.65342658509886!3d-23.56573928468071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1668631302332!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <!-- === Footer === -->
+    <footer>
+        <div id="row">
+            <div class="col">
+                <h3>Coteware</h3>
+                <p>Somos uma empresa de fabricação e venda de peças de hardware. Nosso objetivo principal
+                é entrgar produtos com a maior qualidade e segurança possível para nosso clientes.</p>
+            </div>
+            <div class="col">
+                <h3>Início</h3>
+                <p> <a href="../../index.html">Home</a> </p>
+                <p> <a href="./monitors.html">Monitores</a> </p>
+                <p> <a href="./keyboards.html">Teclados</a> </p>
+            </div>
+            <div class="col">
+                <h3>Informações</h3>
+                <p> <a href="./contact.html">Contato</a> </p>
+                <p> <a href="mailto:contato@coteware.com.br">E-mail</a> </p>
+                <p> <a href="tel:+551199999-9999">Telefone</a> </p>
+            </div>
+            <div class="col">
+                <h3>Receba nossas promoções exclusivas</h3>
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <button type="submit"> <i class="fas fa-arrow-right"></i> </button>
+                </form>
+                <div id="social-icons">
+                    <a target="_blank" href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i> </a>
+                    <a target="_blank" href="https://www.whatsapp.com/"> <i class="fab fa-whatsapp"></i> </a>
+                    <a target="_blank" href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p id="copyright">Coteware @ 2022 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- JS Files === -->
+    <script src="../js/dark-mode.js"></script>
+    <script src="../js/phone-mask.js"></script>
+</body>
+</html>

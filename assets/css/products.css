@@ -1,0 +1,93 @@
+/* === Products Section === */
+#title{
+    width: auto;
+    margin: 10vh 0; 
+    text-align: center;
+}
+
+#title h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#container .product{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 5vh auto;
+}
+
+
+#container .product .content{
+    margin-top: 15px;
+}
+
+#container .product .content h2{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#container .product .content .value{
+    color: var(--color-dark-yellow);
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#container .product .content .value:hover{
+    text-decoration: underline;
+}
+
+#container .product .content .description{
+    font-size: 13px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+#container .product .content button{
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--color-dark-blue);
+    color: var(--color-yellow);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#container .product .content button:hover{
+    background-color: var(--color-yellow);
+    color: var(--color-dark-blue);
+}
+
+/* === Media Queries === */
+@media (max-width: 1024px) {
+    #container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    #container{
+        grid-template-columns: 1fr;
+    }
+
+    #container .product .content button{
+        width: 10vw;
+    }
+}
+
+@media (max-width: 547px) {
+    #container .product .content button{
+        width: 17vw;
+    }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artur Bomtempo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coteware | Quality Assurance</title>
+    <!-- === Favicon === -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <!-- === CSS Files -->
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/header-footer.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- === Bootstrap CDN === -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- === Font Awesome === -->
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+</head>
+<body>
+    <!-- === Dark And Light Mode Button === -->
+    <div onclick="DarkMode()" id="dark-light-mode"> <img src="./assets/images/dark-light-mode.svg" alt="Modo claro e escuro" width="50px"> </div>
+    <!-- === Header === -->
+    <header>
+        <a href="#"> <img src="./assets/images/logo.png" alt="Logo da Coteware" width="70px"> </a>
+        <ul id="nav">
+            <li> <a href="./index.html">Home</a> </li>
+            <li> <a href="./assets/pages/monitors.html">Monitores</a> </li>
+            <li> <a href="./assets/pages/keyboards.html">Teclados</a> </li>
+            <li> <a href="./assets/pages/contact.html">Contato</a> </li>
+        </ul>
+        <div id="search">
+            <input type="text" placeholder="Pesquisar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <!-- === Banner === -->
+    <img id="banner" src="./assets/images/banner.png" alt="Banner">
+    <!-- === Monitors Section === -->
+    <div class="section-title">
+        <h2>Monitores</h2>
+    </div>
+    <div class="products-container">
+        <a href="./assets/pages/monitors.html"> <img src="./assets/images/monitors-brand/dell.png" alt="Monitores da Dell"> </a>
+        <a href="./assets/pages/monitors.html"> <img src="./assets/images/monitors-brand/apple.png" alt="Monitores da Dell"> </a>
+        <a href="./assets/pages/monitors.html"> <img src="./assets/images/monitors-brand/samsung.png" alt="Monitores da Samsung"> </a>
+    </div>
+    <div class="section-title">
+        <h2>Teclados</h2>
+    </div>
+    <div class="products-container">
+        <a href="./assets/pages/keyboards.html"> <img src="./assets/images/keyboard-models/mechanics.png" alt="Teclados mecânicos"> </a>
+        <a href="./assets/pages/keyboards.html"> <img src="./assets/images/keyboard-models/ergonomics.png" alt="Teclados ergonômicos"> </a>
+        <a href="./assets/pages/keyboards.html"> <img src="./assets/images/keyboard-models/wireless.png" alt="Teclados sem fio"> </a>
+    </div>
+    <div class="section-title">
+        <h2>Produtos mais vendidos</h2>
+    </div>
+    <!-- === Image Carousel === -->
+    <div id="carousel">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div id="gallery-wrapper">
+            <div id="gallery">
+                <a href="./assets/pages/monitors.html"> <img class="item current-item" src="./assets/images/monitors/pro-display-xdr.png" alt="Monitor Apple" width="250px"> </a>
+                <a href="./assets/pages/keyboards.html"> <img class="item current-item" src="./assets/images/keyboards/wireless-exbom.png" alt="Teclado Sem Fio Exbom" width="250px"> </a>
+                <a href="./assets/pages/monitors.html"> <img class="item current-item" src="./assets/images/monitors/dell-gamer.png" alt="Monitor Dell Gamer" width="250px"> </a>
+                <a href="./assets/pages/keyboards.html"> <img class="item current-item" src="./assets/images/keyboards/mechanic-dark.png" alt="Teclado Mecânico Redragon" width="250px"> </a>
+                <a href="./assets/pages/monitors.html"> <img class="item current-item" src="./assets/images/monitors/samsung-qled.png" alt="Monitor Samsung QLED" width="250px"> </a>
+                <a href="./assets/pages/keyboards.html"> <img class="item current-item" src="./assets/images/keyboards/ergonomic-logitech.png" alt="Teclado Ergonômico Logitech" width="250px"> </a>
+            </div>
+        </div>
+    </div>
+    <!-- === Footer === -->
+    <footer style="margin-top: 8vh;">
+        <div id="row">
+            <div class="col">
+                <h3>Coteware</h3>
+                <p>Somos uma empresa de fabricação e venda de peças de hardware. Nosso objetivo principal
+                é entrgar produtos com a maior qualidade e segurança possível para nosso clientes.</p>
+            </div>
+            <div class="col">
+                <h3>Início</h3>
+                <p> <a href="./index.html">Home</a> </p>
+                <p> <a href="./assets/pages/monitors.html">Monitores</a> </p>
+                <p> <a href="./assets/pages/keyboards.html">Teclados</a> </p>
+            </div>
+            <div class="col">
+                <h3>Informações</h3>
+                <p> <a href="./assets/pages/contact.html">Contato</a> </p>
+                <p> <a href="mailto:contato@coteware.com.br">E-mail</a> </p>
+                <p> <a href="tel:+551199999-9999">Telefone</a> </p>
+            </div>
+            <div class="col">
+                <h3>Receba nossas promoções exclusivas</h3>
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <button type="submit"> <i class="fas fa-arrow-right"></i> </button>
+                </form>
+                <div id="social-icons">
+                    <a target="_blank" href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i> </a>
+                    <a target="_blank" href="https://www.whatsapp.com/"> <i class="fab fa-whatsapp"></i> </a>
+                    <a target="_blank" href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p id="copyright">Coteware @ 2022 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- === JS Files === -->
+    <script src="./assets/js/dark-mode.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+</body>
+</html>

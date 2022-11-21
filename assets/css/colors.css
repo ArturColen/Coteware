@@ -1,0 +1,10 @@
+/* === Color Variables === */
+:root{
+    --color-black: #000;
+    --color-white: #fff;
+    --color-dark-blue: #0019b5;
+    --color-blue: #455ae6;
+    --color-light-blue: #667aff;
+    --color-dark-yellow: #99790f;
+    --color-yellow: #e6c045;
+}
