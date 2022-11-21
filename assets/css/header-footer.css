@@ -102,6 +102,7 @@ header #search .fa-search{
     right: 10px;
     transition: all .5s;
     cursor: pointer;
+    z-index: 1000;
 }
 
 #dark-light-mode:hover{
