@@ -155,7 +155,7 @@ footer form{
     margin-bottom: 50px;
 }
 
-footer form .far{
+footer form .fa{
     font-size: 18px;
     margin-right: 10px;
 }
@@ -179,12 +179,12 @@ footer form button{
     cursor: pointer;
 }
 
-footer form button .fas{
+footer form button .fa{
     font-size: 16px;
     color: var(--color-white);
 }
 
-footer #social-icons .fab{
+footer #social-icons .fa{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -198,7 +198,7 @@ footer #social-icons .fab{
     transition: all .5s;
 }
 
-footer #social-icons .fab:hover{
+footer #social-icons .fa:hover{
     background-color: var(--color-yellow);
     color: var(--color-dark-blue);
 }
