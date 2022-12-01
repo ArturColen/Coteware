@@ -10,7 +10,7 @@ In addition to training Front-end development skills, this e-commerce site was c
 # 💻 Technologies and techniques used 
 * `HTML:` Page structuring, accessibility, semantics and SEO
 * `CSS:` Page styling and responsiveness
-* `JavaScript:` Form filler mask, dark mode, and images carousel.
+* `JavaScript:` Form filler mask, dark mode, and images carousel
 
 # 📁 Project access
 You can [access the source code](https://github.com/ArturColen/Coteware) or [view the hosted page](https://arturcolen.github.io/Coteware).
