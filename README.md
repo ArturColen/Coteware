@@ -13,4 +13,4 @@ In addition to training Front-end development skills, this e-commerce site was c
 * `JavaScript:` Form filler mask, dark mode, and images carousel
 
 # 📁 Project access
-You can [access the source code](https://github.com/ArturColen/Coteware) or [view the hosted page](https://arturcolen.github.io/Coteware).
+You can [access the source code](https://github.com/ArturColen/Coteware) or [view the hosted page](https://coteware.surge.sh).
