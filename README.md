@@ -7,7 +7,7 @@ The project was developed for the final work of the year in the Front-end course
 This e-commerce site was created to present the products of a fictitious company called Coteware.
 
 ## 💻 Technologies used 
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): Page structuring, accessibility, semantics and SEO
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): Page structuring, accessibility and semantics
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): Page styling and responsiveness
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Form filler mask, dark mode, and images carousel
 
