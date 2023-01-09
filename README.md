@@ -13,5 +13,4 @@ This e-commerce site was created to present the products of a fictitious company
 * `JavaScript:` Form filler mask, dark mode, and images carousel
 
 # 📁 Project access
-You can download the project or view the hosted page.
 You can [download the project](https://github.com/ArturColen/Coteware/archive/refs/heads/main.zip) or [view the hosted page](https://arturcolen.github.io/Coteware/).
